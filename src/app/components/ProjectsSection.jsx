@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Brainwave Project",
-    description: "Brainwave Project",
+    description: "Front End Project",
     image: "/images/projects/Project-1.jpg",
     tag: ["All My Projects", "Web", "Front-End"],
     gitUrl: "https://github.com/Fhadshnde/Brainwave.git",
@@ -16,8 +16,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Photography Portfolio Website",
-    description: "Project 2 description",
+    title: "Bank Modren Website",
+    description: "Front End Project",
     image: "/images/projects/Project-2.jpg",
     tag: ["All My Projects", "Web", "Front-End"],
     gitUrl: "https://github.com/Fhadshnde/Bank.git",
@@ -25,8 +25,8 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "Full-stack social media",
+    description: "Full-stack social media",
     image: "/images/projects/Project-5.jpg",
     tag: ["All My Projects", "Web", "Full-Stack"],
     gitUrl: "https://github.com/Fhadshnde/Social-media.git",
@@ -34,8 +34,8 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
+    title: "Full-stack Hotels",
+    description: "Full-stack Hotels",
     image: "/images/projects/Project-6.jpg",
     tag: ["All My Projects", "Web", "Full-Stack"],
     gitUrl: "https://github.com/Fhadshnde/booking-mern.git",
@@ -43,8 +43,8 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
+    title: "Dagtal-Agency Project",
+    description: "Dagtal-Agency Project Next.js",
     image: "/images/projects/Project-7.jpg",
     tag: ["All My Projects", "Web", "Next.js", "Full-Stack"],
     gitUrl: "https://github.com/Fhadshnde/Dagtal-Agency.git",
