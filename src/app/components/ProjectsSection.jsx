@@ -7,20 +7,20 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Brainwave Project ",
-    description: "Brainwave Project ",
+    title: "Brainwave Project",
+    description: "Brainwave Project",
     image: "/images/projects/Project-1.jpg",
-    tag: ["All My Projects", "Web","Front-End"],
+    tag: ["All My Projects", "Web", "Front-End"],
     gitUrl: "https://github.com/Fhadshnde/Brainwave.git",
-    previewUrl: "https://brainwaveeweb.netlify.app/",  
+    previewUrl: "https://brainwaveeweb.netlify.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
+    title: "Photography Portfolio Website",
     description: "Project 2 description",
     image: "/images/projects/Project-2.jpg",
-    tag: ["All My Projects", "Web","Front-End"],
-    gitUrl: "https://github.com/Fhadshnde/Bank.git",   
+    tag: ["All My Projects", "Web", "Front-End"],
+    gitUrl: "https://github.com/Fhadshnde/Bank.git",
     previewUrl: "https://yourwebsite.com/preview2",
   },
   {
@@ -28,8 +28,8 @@ const projectsData = [
     title: "Full-stack Roadmap",
     description: "Project 5 description",
     image: "/images/projects/Project-5.jpg",
-    tag: ["All My Projects", "Web","Full-Stack"],
-    gitUrl: "https://github.com/Fhadshnde/Social-media.git",   
+    tag: ["All My Projects", "Web", "Full-Stack"],
+    gitUrl: "https://github.com/Fhadshnde/Social-media.git",
     previewUrl: "https://social-front-henna.vercel.app",
   },
   {
@@ -37,18 +37,17 @@ const projectsData = [
     title: "React Firebase Template",
     description: "Authentication and CRUD operations",
     image: "/images/projects/Project-6.jpg",
-    tag: ["All My Projects", "Web","Full-Stack"],
-    gitUrl: "https://github.com/Fhadshnde/booking-mern.git",   
+    tag: ["All My Projects", "Web", "Full-Stack"],
+    gitUrl: "https://github.com/Fhadshnde/booking-mern.git",
     previewUrl: "https://teal-cannoli-399069.netlify.app/",
   },
-
   {
     id: 6,
     title: "Full-stack Roadmap",
     description: "Project 5 description",
     image: "/images/projects/Project-7.jpg",
-    tag: ["All My Projects", "Web","Next.js","Full-Stack"],
-    gitUrl: "https://github.com/Fhadshnde/Dagtal-Agency.git",   
+    tag: ["All My Projects", "Web", "Next.js", "Full-Stack"],
+    gitUrl: "https://github.com/Fhadshnde/Dagtal-Agency.git",
     previewUrl: "https://fastidious-hamster-b5e797.netlify.app/",
   },
 ];
@@ -76,29 +75,29 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <div className="text-white flex flex-wrap justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
           name="All My Projects"
           isSelected={tag === "All My Projects"}
         />
-                <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name="Full-Stack"
           isSelected={tag === "Full-Stack"}
         />
-                <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name="Front-End"
           isSelected={tag === "Front-End"}
         />
-                        <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name="Next.js"
           isSelected={tag === "Next.js"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
