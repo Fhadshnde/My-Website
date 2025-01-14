@@ -21,7 +21,7 @@ const projectsData = [
     image: "/images/projects/Project-2.jpg",
     tag: ["All My Projects", "Web", "Front-End"],
     gitUrl: "https://github.com/Fhadshnde/Bank.git",
-    previewUrl: "https://yourwebsite.com/preview2",
+    previewUrl: "https://hoobankmodren.netlify.app/",
   },
   {
     id: 3,
